@@ -1,0 +1,6 @@
+touch command is to create empty files but we cannot create dir using touch
+and also to change the time stamp
+
+touch filename  ---creates empty file if the file doesnot exists and changes the timestamp if the file is already exists
+                       
+            

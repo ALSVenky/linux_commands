@@ -1,0 +1,6 @@
+netstat  -network statistics
+its a cmd line tool which is used to display network connections,routing tables and a no.of interfaces 
+netstat -a 
+netstat -a | less   --for more flexible
+
+see 38th video

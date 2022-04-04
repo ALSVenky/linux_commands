@@ -1,0 +1,18 @@
+less command used when we want to read a big text file 
+less bigfile.txt 
+  it spews a page content. 
+    use- down arrow to read next line
+         up arrow to read above line
+         space to read next page of content
+         B to go above page by page 
+         shift+G to go to end of the file
+         g/1G to go to beginning of the file
+         /word to search for the word inside the file from top to bottom (it shows the first occurence of word to see next occurence use n )
+         ?word to search from bottom to top
+q -- to quit from less command
+
+
+
+
+
+  

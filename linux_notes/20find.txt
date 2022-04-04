@@ -1,0 +1,11 @@
+find path -name filename/dirname    ---syntax
+
+we can use wilcards also to search for files/dirs
+
+there are some files, that shows permission denied. use sudo there
+sudo find -name filename
+
+find path -mtime -x   ---shows the list of files in the specified path that are created/updated xdays ago 
+
+
+

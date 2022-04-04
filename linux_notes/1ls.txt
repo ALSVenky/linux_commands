@@ -1,0 +1,18 @@
+ctrl+alt+t ---to open terminal
+pwd --present working directory
+ls [options] [files or directory]  ---syntax
+ls directoryname/ ---lists all contents inside that directory
+ls / ---lists all contents inside the root 
+ls ~   ---lists the contents inside the home directory
+ls ..  -----list the files of onestep back directory
+ls ../..    ---lists the files of twostep back directory
+ls -l  --to list all the files in long format
+ls -a  --------to show hiden files also
+ls -al    ---to show hidden files and to get long format list
+ls -lS   ---this sorts the files according to their size (decreasing order)
+ls *.sh   ----this will list out all the files having .sh extension
+ls -lS > result.sh   ----basically the result of the ls command will get stored in side that file result.sh
+ls -d */     ---lists out all the directories but not files
+ls -R --- to see the directories structure.
+
+----> to know more about ls use (man ls)

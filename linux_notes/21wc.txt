@@ -1,0 +1,20 @@
+wc --word count cmd
+
+wc file name   
+result:
+x y z filename   ---x=no.of lines 
+                    y=no.of words
+                    z=no.of characters
+
+wc -c/-l/-w/-L filename  ---c to print no.of characters
+                            l to print no.of lines
+                            w to print no.of words
+                            L to print the length of longest line
+
+
+
+
+
+
+
+

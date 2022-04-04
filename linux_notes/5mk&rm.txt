@@ -1,0 +1,17 @@
+mkdir dirname    ---to create directory
+mkdir dir/subdir     ----creates subdir inside the dir. if dir doesnot exists it throughs error.
+
+mkdir -p dir/subdir   --- it creates the dir if dir doesnot exists.
+                          -p flag is to create directory structure.
+mkdir -p dir/{subdir1,subdir2,subdir3}   ---to create multiple sub directories at a time. dont give space in the list.
+
+--> note: if dir contains files rmdir cmd dont works (use rm cmd there)
+rmdir dirname   ---to remove directory
+                           
+rmdir a/b/c/d  ---removes only the 'd' directory which is the top most dir in this case.
+rmdir -p a/b/c/d     ---to remove the entire directory structure
+rmdir -pv a/b/c/d     --- v flag is used to know the process of excecution of any command
+
+rm -r parentdirname   ---recursively removes evrything inside that directory
+
+****  rm -r a/b/c/  ---this will del everything after c directory, because here we written c as parent

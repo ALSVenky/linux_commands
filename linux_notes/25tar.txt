@@ -1,0 +1,12 @@
+tar command is used to create, maintain and modify and extract files which are in the tar format
+
+tar stands for tape archive and its an archiving file format just like zip file
+
+tar -c/xvf   ---c for creating,x for extracting, v for verbase, f for giving the file name
+
+tar -cvf name.tar name   ---for compressing
+tar -xvf name.tar   ---for extracting
+
+tar -czvf name.gz name
+tar -xzvf name.gz name
+

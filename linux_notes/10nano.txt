@@ -1,0 +1,3 @@
+nano is basically a text editor
+
+nano file.txt ---creates file and opens it in nano editor 

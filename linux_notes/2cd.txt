@@ -1,0 +1,5 @@
+cd /  ---its brings u to root directory
+cd or cd ~   ---brings you to home directory
+cd my\ docs or cd "my docs" or cd 'my docs'  --if there is a space in the name of the file or directory
+cd .. ---to move a level back
+cd ../..    ---to move to levels back

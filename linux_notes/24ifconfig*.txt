@@ -1,0 +1,16 @@
+ifconfig stands for interface configurations used to view and change the configuration of network interface in your system
+
+ifconfig  
+  eth0 -> you are connected with wire
+  wlan0 -> you are conneted wireless
+we will get mac-address, lan-address(IPB4-address),mask-address,broadcast-address,IPB6-address
+
+sudo ifconfig eth0 down  ---disconnects your internet
+sudo ifconfig eth0 up    ---connects to internet
+
+use (man ifconfig)
+see 35th video
+
+
+
+

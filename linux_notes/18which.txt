@@ -1,0 +1,11 @@
+watch is used for any command, it just repeat the execution of that command evry 2secs(default)
+ctrl+c  ---to come out of this command
+watch command  ---syntax
+watch -n x cmd   ---here x = int (time u want to repeat the cmd)
+
+
+
+
+
+
+

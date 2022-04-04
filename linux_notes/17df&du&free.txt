@@ -1,0 +1,21 @@
+df ---To know disk space usage
+df -h    ---gives the content in human readable format
+
+du ---Displays the space used by files(at last gives u the spce used by this folder)
+
+du -h --for human readable format
+
+du -sh   ---for displaying just summary (only value of space used)
+             some files display permission denied,use sudo there.
+sudo du -sh   ---problem overcomed
+
+
+
+free   ---to display free space,used space,buffers,cached space
+
+free -m/-g     ---use m for megabyte,g for gigabyte
+
+
+
+
+

@@ -1,0 +1,16 @@
+mv options source destination  ---syntax
+
+mv file1.txt file2.txt   --- simply renames the file name
+
+mv file.txt dir   ---transfers the file to dir
+note: if the file name already exists then it will overwrite the file
+ 
+mv -i file.txt dir  --- here i flag asks whether to over write or not if the file alreay exists
+
+mv dir1 dir2  
+---case:1- if dir2 already exists, then dir1 will be moved inside dir2
+---case:2- if dir2 not exists, then the dir1 name changes to dir2
+
+
+use (man mv) for  more info
+

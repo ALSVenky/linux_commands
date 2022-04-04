@@ -1,0 +1,14 @@
+which  ---return the path of file or command 
+
+which name 
+examples:
+  which ls
+  which bash
+  which firefox
+
+whatis   ---gives the short description of the command (which is already present in man page)
+
+examples:
+  whatis ls
+  whatis bash
+  whatis firefox

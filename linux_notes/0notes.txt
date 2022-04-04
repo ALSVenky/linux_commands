@@ -1,0 +1,17 @@
+root folder starts with forward slash(/)
+
+cat /etc/os-release   ---to find out the version
+
+sudo apt-get upgrade   ---to install updates
+
+for combining multiple commands, seperate each command with semicolon(;) or (&&) or (||).
+   if anyone of the cmds is wrong, using semicolon wont disturb others.
+   if anyone of the cmds is wrong, using && dont run other commands.
+   using ||, the next commands will be executed only when first is failed.
+   order of execution of cmds is from left to right
+
+sudo shutdown now    ---to shutdown immediately
+sudo shutdown   ---may take 60secs
+
+to exit cat command press ctrl+d
+

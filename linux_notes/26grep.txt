@@ -1,0 +1,16 @@
+
+grep -global regular expression print
+grep command is case sensitive by default
+
+grep "pattern to search" filename  ---prints the lines that contain the pattern
+grep -i "pattern to search" filename   ---to make it case-insensitive
+grep -n "pattern to search" filename   ---to print the line numbers also
+grep -w "word to be searched"   ---only to search for exactword in the line
+grep "pattern to search" filename1 filename2 file3   ---for searching the pattern in multiplefiles
+
+grep -v "pattern to search"    ---Invert the sense of matching, to select non-matching lines.
+grep --help   ---to know more about grep cmd
+
+
+
+

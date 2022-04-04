@@ -1,0 +1,25 @@
+cp options source destination ---syntax
+cp file1.txt file2.txt    ---copies the content of file1 to file2 (it creates file2 if its not there)
+
+cp file.txt dir   ---copies the file to the dir(if alredy file exists it simply overwrites )
+
+cp file1.txt file2.txt dir  ---to copy multiple files at a time mentiion multiple names 
+
+**cp -i file1.txt file2.txt dir   ---it asks whether to overwrite if that file alreay exists(press y for yes n for no)
+
+------>
+***cp ../file1.txt ../../file2.txt .   ---here file1 is in dir that is one level down of current dir
+                                        and file2 is in 2levels down
+                                        (.) indicates the destination is the current dir
+------>
+-->case:1 = dir2 not exists
+cp dir1 dir2   ---throughs error if dir1 has files (dir2 doesnot exists)
+cp -r/-R dir1 dir2    ---here it wont give error as above (dir2 doesnot exists)
+                         here dir2 is created first and dir1 is copied to dir2 i.e. dir1 is  not in dir2
+
+--->case:2 = dir2 exists
+cp -r dir1 dir2   ---dir1 is copied to dir2 i.e. dir1 is in dir2
+
+
+use (man cp) to know more about cp
+

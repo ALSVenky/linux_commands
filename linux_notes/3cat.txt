@@ -1,0 +1,8 @@
+cat can be used as an echo 
+to exit cat command press ctrl+d 
+cat filename   ---prints the content on terminal
+cat filename1 filename2   ---prints the content of the both files combined
+cat -b filename   ---gives the line numbers also (but dont give number for blank lines)
+cat -n filename   ---gives the line numbers also (but gives number for blank lines also)
+use (man cat) command to know more options
+

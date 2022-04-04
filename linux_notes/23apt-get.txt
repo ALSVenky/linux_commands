@@ -1,0 +1,21 @@
+apt=advanced packaging tool used for debian os
+
+sudo apt-get upgrade   ----to install updates 
+
+to know whether a software is already there are not use  
+-->name -version or name -v
+    ex-  java -version
+
+if not there then for installing that software use
+-->sudo apt-get install name
+
+for removing software use
+-->sudo apt-get remove name   --- its not gng to remove configurations, it just removes the software
+
+-->sudo apt-get autoremove name     ---its going to remove configurstions and related libraries that are installed with it
+
+
+
+
+
+

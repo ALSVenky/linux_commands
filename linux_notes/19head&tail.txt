@@ -1,0 +1,13 @@
+head filename   ---displays the first 10(default) lines of contnt from file
+
+head -nx filename  ---to change no.of lines to display
+
+simillarly for tail,it displays the last 10 lines(default)
+
+tail -f filename   ---f flag is to follow (the command wont stop it will be updated if any appended)
+press ctrl+c to exit 
+
+you can see more than one file content at a time :
+head -nx file1 file2
+
+

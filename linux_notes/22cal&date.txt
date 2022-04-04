@@ -1,0 +1,34 @@
+-->CAL:
+
+cal cmd is used to print conventionally formatted calender on cmdline
+
+cal/ncal 
+
+cal year  --for entire year
+
+cal x year   ---(x=month number) prints that month of that year
+
+-->DATE:
+
+date  ---simlipies displays the date and time
+
+date -s "date time"   ---to change the system time to specified date and time
+
+
+Format             What is specifies
+
++%m                Specifies the month number
++%h                Specifies the abbreviated month(Jan-Dec)
++%B                Specifies the full month name
++%d                Specifies the day of the month
++%y                Specifies the year
++%H,+%M and +%s    Specifies the hour, minute, seconds
++%D                Specifies the date as mm/dd/yy
++%T                Specifies the time as hh:mm:ss
+
+date +%d%h%y 
+date "+%d-%h-%y"
+date "+%d/%h/%y"  --all these displays date 
+
+use man page to know more (man date)
+

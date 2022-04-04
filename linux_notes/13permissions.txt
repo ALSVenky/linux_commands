@@ -1,0 +1,37 @@
+file permisions :
+
+ls -l 
+
+1st place:-
+- > normal file
+d > dir
+c > dir special file
+b > binary special file
+
+next three places are for owner of the file:
+next three are for grp 
+last three are for others(users)
+
+1>next is symbolic links for file
+next is name of owner of the file
+next is name of grp of the file
+next is size of file
+next date of creation of file
+
+To change the permissions of others/group/user use 
+chmod (o/g/u)(+/-)(r/w/x) filename
+u can use a for all
+chmod a-rwx filename = chmod ugo-rwx filename  ---remove all permissions fron all
+chmod u+x,g+wx,o+rwx  ---this way u can combine multiple commands
+
+directory permissions:
+see 18th video
+
+octal permissions:
+
+see 19th video
+
+
+
+
+

@@ -1,0 +1,28 @@
+To know which program is taking more memory and more cpu use top command
+
+To change refreshing time press s and type number (seconds)
+default is 3 secs refreshing time
+
+To filter out ideal processes press i 
+To retain normal way press i again
+
+To kill a process press k and type the PID (process id) and then press enter 2 times
+
+to exit out of top command press q
+
+To kill a process we first need PID of that process 
+pidof name(prosess name) ---gives you PID 
+To know process name use (top) command or (ps -ux) command
+PID is not a constant, it changes every time u run process
+
+
+kill PID ---kills the process
+kill -KILL PID   ---it wills kills any powerful process (usually not recomended)
+kill -9 PID ---it is also powerfull 
+
+
+ps -aux  ---lists all the process which are used by all users
+ps -U username   ---if u want to see which process is run by which user(if your OS is used by multiple)
+
+
+
